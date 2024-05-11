@@ -1,6 +1,10 @@
 div{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(14, 87, 155);
+    width: 80%;
+    height: 900px;
+    /* background-color: rgb(14, 87, 155); */
+    background-image: url(/img/pexels-jeremy-bishop-1260133-20147082.jpg);
+    background-repeat: no-repeat;   /*evita que a img se repita caso a mesma n preencha toda div */
+    background-size: cover;
     margin: 150px auto;
+    background-position: center ;
 }
