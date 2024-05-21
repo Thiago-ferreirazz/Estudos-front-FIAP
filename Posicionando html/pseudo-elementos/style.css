@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+p::first-line{
+    background-color: brown;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: larger;
+}
+p::selection{
+    background-color: rgb(165, 42, 99);
+    color: aliceblue;
+    font-weight: 900;
+    font-size: larger;
+}
+
+h1::after {
+    content: ' arroz';
+    width: 80%;
+    height: 3px;
+    background-color: #dc143c;       
+    margin: 10px auto;
+    
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width: 90%;
+    height: 80px;
+    margin: 10px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid red 
+}
+
+#conteudo_1{
+    color: white;
+    font-weight: 1000;
+    background-color: red;
+    text-align: center;
+}
+
+.conteudo_2{
+    border: 2px solid blue;
+    font-size: 18;
+    text-align: center;
+}
+
+.bg-blue{background-color: aquamarine;}
+.bg-green{background-color: darkgreen;}
+
+ul{
+    margin: 25px;
+    border: 1px solid black;
+    width: 35%;
+    height: auto;
+    
+}
+
+ul+p{ /* primeiro termo P que vem apos de qualquer ul, utilize ~ para aplicar o estilo a todos os P apos a tag UL */
+    color: rgb(153, 24, 24);
+}
